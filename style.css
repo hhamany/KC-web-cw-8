@@ -2,7 +2,14 @@
   padding: 0;
   margin: 0;
 }
+
+@font-face {
+  font-family: fonty;
+  src: url(./font/fontyy.ttf);
+}
+
 body {
+  background-color: rgb(106, 176, 201);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -11,18 +18,35 @@ body {
   height: 100vh;
   border: 10px inset #3d3d3dcc;
 }
+h1{
+  color: rgb(255, 255, 255);
+  font-family: fonty;
+}h2{
+  color: rgb(255, 255, 255);
+  font-family: fonty;
+}
+
 
 h4 {
-  width: 70%;
+  width: 50px;
   display: flex;
   justify-content: space-evenly;
 }
 
+button { 
+  width: 90px;
+  height: 50px;
+  border-radius: 10px;
+   color: rgb(42, 107, 219);
+   background-color: white;
+}
+
 h4 div {
+  width: 50px;
+  border-radius: 4px;
   padding: 5px;
-  border: 0.5px solid #3d3d3d3f;
-  background-color: #3d3d3d1f;
+  border: 1.5px solid #3d3d3d3f;
 }
 hr {
-  width: 30%;
+  width: 56px;
 }
